@@ -1,0 +1,5 @@
+I=input("Enter the value of current(A):")
+R=input("Enter the value of resistance (ohms):")
+unit=str(input("Enter the SI unit of V :"))
+V= (float(I) * float(R))
+print(f"Voltage: {V} {unit}")
